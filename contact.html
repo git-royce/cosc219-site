@@ -18,7 +18,45 @@
         <h1>Contact</h1>
     </header>
     <main>
-        
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="options">Select from the dropdown:</label>
+            <select id="options" name="options" required>
+                <option value="optA">Option A</option>
+                <option value="optB">Option B</option>
+                <option value="optC">Option C</option>
+            </select><br>
+
+            <fieldset>
+                <legend>What is your role?:</legend>
+                <input type="radio" id="role_programmer" name="role" value="Programmer" required>
+                <label for="role_programmer">Programmer</label><br>
+
+                <input type="radio" id="role_modeller" name="role" value="Modeller" required>
+                <label for="role_modeller">Modeller</label><br>
+                
+                <input type="radio" id="role_vfx" name="role" value="VisualEffects" required>
+                <label for="role_vfx">Visual Effects (VFX) Artist</label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Tell me about yourself:</legend>
+                <textarea id="information" name="information"></textarea>
+            </fieldset><br>
+            
+            <input type="checkbox" id="via_email" name="contact_method" value="AllowEmail">
+            <label for="via_email">I would like to receive updates via email.</label><br>
+
+            <input type="checkbox" id="via_text" name="contact_method" value="AllowText">
+            <label for="via_Text">I would like to receive updates via text.</label><br><br>
+
+            <button type="submit">Submit form</button>
+        </form>
     </main>
     <footer>
         <p>This is the bottom of the page.</p>
