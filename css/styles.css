@@ -1,0 +1,25 @@
+:root {
+--brand: #ff00bb;
+--secondary: #2431df;
+--tertiary:rgb(241, 229, 0)5;
+--mute:rgb(115, 115, 155);
+--bg:rgb(110, 100, 170);
+--space: 1rem;
+
+}
+body { 
+    background-color: var(--bg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { color: var(--brand); }
+a:visited { color: var(--tertiary); }
+h1 { color: var(--secondary); }
+
+:hover {
+    color: var(--mute);
+ }
+
+:focus {
+    color: var(--mute);
+ }
