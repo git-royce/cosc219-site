@@ -53,7 +53,7 @@ legend {
 
 #front-image {
     border-radius: 100%;
-    border: 0.3rem solid var(--brand)
+    border: var(--space) solid var(--brand)
 }
 
 .large-image {
