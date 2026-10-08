@@ -1,9 +1,9 @@
 :root {
 --brand: #ff00bb;
 --secondary: #2431df;
---tertiary:rgb(241, 229, 0)5;
---mute:rgb(115, 115, 155);
---bg:rgb(110, 100, 170);
+--tertiary:rgb(241, 229, 0);
+--mute:#ff0000;
+--bg:rgb(219, 228, 246);
 --space: 1rem;
 
 }
@@ -13,13 +13,13 @@ body {
 }
 
 a { color: var(--brand); }
-a:visited { color: var(--tertiary); }
+a:visited { color: var(--secondary); }
 h1 { color: var(--secondary); }
 
-:hover {
+a:hover {
     color: var(--mute);
  }
 
-:focus {
+a:focus {
     color: var(--mute);
  }
